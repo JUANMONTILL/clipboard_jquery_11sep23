@@ -58,6 +58,9 @@ body {
     }
 
     .copy-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 10px 15px;
       color: $main-bg;
       background-color: $fourth-color;
@@ -71,6 +74,7 @@ body {
 
       ion-icon {
         padding-left: 10%;
+        font-size: 30px;
       }
 
       :active {
@@ -78,20 +82,18 @@ body {
       }
     }
 
-    span {
-      .copied {
-        display: block;
-        margin-top: 50px;
-        text-align: center;
-        font-size: 26px;
-        color: $fifth-color;
-        transform: scale(0);
-        transition: bounceIn 0.8s linear;
-      }
+    .copied {   
+      display: block;     
+      margin-top: 50px;
+      text-align: center;
+      font-size: 26px;
+      color: $fifth-color;
+      transform: scale(0);
+      transition: bounceIn 0.8s linear;
+    }
 
-      .bounce-effect {
-        animation: bounceIn 0.8s linear;
-      }
+    .bounce-effect {
+      animation: bounceIn 0.8s linear;
     }
 
     .d-none {
@@ -99,5 +101,34 @@ body {
     }
 
     /* BounceIn Animation*/
+
+    @keyframes bounceIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.3);
+      }
+
+      20% {
+        transform: scale(1.1);
+      }
+
+      40% {
+        transform: scale(0.9);
+      }
+
+      60% {
+        opacity: 1;
+        transform: scale(1.03);
+      }
+
+      80% {
+        transform: scale(0.97);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
   }
 }
