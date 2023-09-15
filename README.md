@@ -1,23 +1,20 @@
-![](https://img.shields.io/badge/Uneweb-blue)
+# CLIPBOARD
 
-# Project Name
+> Functional ClipBoard for JavaScript projects.
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](/Screenshot_2023-09-15_08-12-43.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- SCSS
+- HTML
+- NodeJs
+- StyleLint
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://juanmontill.github.io/clipboard_jquery_11sep23/)
 
 ## Getting Started
 
@@ -48,17 +45,11 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@JUANMONTILL](https://github.com/JUANMONTILL)
 - Instagram: [@juanfranc_31](https://instagram.com/juanfranc_31)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/JUANMONTILL/clipboard_jquery_11sep23/issues).
 
 ## Show your support
 
@@ -66,9 +57,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- My Family
+- My Teachers
 
 ## 📝 License
 
